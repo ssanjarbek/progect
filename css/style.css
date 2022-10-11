@@ -1,0 +1,237 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Nunito Sans", sans-serif;
+}
+
+main {
+    padding: 48px 0;
+    background-color: #f2f2f2;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+span {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.container {
+    max-width: 1320px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 24px 0;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.0562443);
+}
+
+.header__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.site-logo {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;
+    color: #111517;
+    text-decoration: none;
+}
+
+.mode-btn {
+    background-color: transparent;
+    border: none;
+    display: inline-flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    cursor: pointer;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+
+.mode-btn:hover {
+    opacity: 0.7;
+}
+
+.mode-btn img {
+    margin-right: 8px;
+    display: block;
+}
+
+.search-form__form {
+    margin-bottom: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search-wrapper {
+    width: 480px;
+    height: 56px;
+    padding: 21px 34px;
+    box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.0532439);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+}
+
+.search-wrapper img {
+    margin-right: 24px;
+}
+
+.search {
+    width: 340px;
+    border: none;
+    outline: none;
+}
+select {
+    width: 200px;
+    height: 56px;
+    text-align: center;
+    background: #ffffff;
+    box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.0532439);
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+option {
+    font-family: "Nunito Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #111517;
+    box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.0532439);
+    border-radius: 5px;
+    border: none;
+}
+
+.sountries__container {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+}
+.country_item {
+    background: #ffffff;
+    box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.0294384);
+    border-radius: 5px;
+    margin-top: 70px;
+}
+.country_item img {
+    width: 265px;
+    height: 160px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.country_item__info {
+    padding: 24px;
+}
+.country_item__name {
+    padding: 0 0 14px;
+}
+ul li {
+    padding: 0 0 8px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #111517;
+}
+
+/* InfoCountries */
+
+.btn button {
+    width: 136px;
+    height: 40px;
+    margin: 80px 0px;
+    background: #ffffff;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.293139);
+    border-radius: 6px;
+    border: none;
+}
+.infos {
+    display: flex;
+    margin-bottom: 300px;
+}
+.infos img {
+    width: 550px;
+    height: 450px;
+    background: grey;
+    box-shadow: rgb(0 0 0 / 3%) 0px 0px 4px 4px;
+    border-radius: 10.0057px;
+    margin-right: 120px;
+}
+.countriy_name {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 44px;
+    color: #111517;
+    margin: 35px 0 23px;
+}
+.info-list--wrapper {
+    display: flex;
+    margin-bottom: 70px;
+}
+.infos__list {
+    margin-right: 100px;
+}
+.infos-title {
+    padding-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.border_countriy {
+    display: flex;
+}
+.border_countriy h4 {
+    padding: 5px 5px 0px 0px;
+}
+.border_countriy button {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 19px;
+    color: #111517;
+    background: #ffffff;
+    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.104931);
+    border-radius: 2px;
+    padding: 5px 28px;
+    border: none;
+}
+
+.btn button:hover {
+    background: rgba(221, 223, 168, 0.333) 45;
+    border: 1px solid#456454;
+    transition: all 0.3s;
+    opacity: 0.7;
+    -webkit-transition:;
+    -moz-transition:;
+    -ms-transition:;
+    -o-transition:;
+}
+.country_item:hover {
+    box-shadow: var(--item-box-shadow);
+    --item-box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px,
+        hsla(0, 0%, 100%, 0.05) 0px 0px 0px 1px inset;
+    --border-country-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.105);
+}
